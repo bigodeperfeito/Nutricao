@@ -5,3 +5,11 @@
      console.log(titulo.textContent);
      titulo.textContent=("Curintia nutrição");
     
+
+     var paciente = document.querySelector("#primeiro-paciente");
+     var tdPeso = paciente.querySelector(".info-peso");
+     console.log(paciente);
+     console.log(tdPeso);
+
+
+     
