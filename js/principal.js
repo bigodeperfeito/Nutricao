@@ -10,7 +10,7 @@
      var tdPeso = document.querySelector(".info-peso");
      var peso = tdPeso.textContent;
      console.log(paciente);
-     console.log(Peso);
+     console.log(peso);
 
 
      
