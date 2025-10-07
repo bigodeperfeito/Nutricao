@@ -13,8 +13,8 @@
      console.log(peso);
 
  
-     var altura = document.querySelector(".info-altura");
-     var altura = tdAltura.textContent;
+     var tdaltura = document.querySelector(".info-altura");
+     var altura = tdAltura.text.textContent
      console.log(altura);
      
    
