@@ -5,7 +5,7 @@
      titulo.textContent=("Curintia nutrição");
 
      var paciente = document.querySelector("primeir paciente");
-     var tdNome = document.querySelector(".info nome");
+     var tdNome = document.querySelector(".info-nome");
      var nome = tdNome.textContent;
      console.log(nome);
 
