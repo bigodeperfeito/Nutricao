@@ -14,7 +14,7 @@
 
  
      var tdaltura = document.querySelector(".info-altura");
-     var altura = tdAltura.textContent
+     var altura = tdAltura.textContent;
      console.log(altura);
      
    
