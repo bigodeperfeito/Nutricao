@@ -23,4 +23,5 @@
      
    
      var imc = peso / (altura * altura) ;
+     tdImc.textContent(imc);
      console.log(imc);
