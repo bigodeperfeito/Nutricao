@@ -32,12 +32,13 @@
      if(peso<0|| peso > 1000){
           console.log("Peso invalido");
           pesoEhValido = false;
-          tdImc.text
+          tdImc.textContent = "Peso ivalido";
 }
 
 if(altura <0|| altura > 3.00){
      console.log("Altura invalida!");
      alturaEhValida = false;
+     tdImc.textContent = "Altura invalida";
 }
 
 
