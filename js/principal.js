@@ -4,7 +4,7 @@ console.log(titulo.textContent);
 titulo.textContent = ("Curintia nutrição");
 
 var pacientes = document.querySelectorAll(".paciente");
-for (var i = 0; i < pacientes.lengt; i++) {
+for (var i = 0; i < pacientes.length; i++) {
 
      var paciente = pacientes[i];
 
