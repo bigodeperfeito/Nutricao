@@ -4,11 +4,11 @@
      console.log(titulo.textContent);
      titulo.textContent=("Curintia nutrição");
 
-     var paciente = document.querySelector("primeir paciente");
-     var tdNome = document.querySelector(".info-nome");
-     var nome = tdNome.textContent;
-     console.log(nome);
-
+     var paciente = document.querySelectorAll(".paciente");
+     for (var i = 0; i <pacientes.lengt; i++) {
+          console.log(paciente[i]);
+     }
+  
     
 
     
