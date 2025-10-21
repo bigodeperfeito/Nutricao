@@ -6,13 +6,9 @@
 
      var paciente = document.querySelectorAll(".paciente");
      for (var i = 0; i <pacientes.lengt; i++) {
-          console.log(paciente[i]);
-     }
-  
-    
+          var paciente = pacientes[i];
 
-    
-     var tdPeso = document.querySelector(".info-peso");
+          var tdPeso = document.querySelector(".info-peso");
      var peso = tdPeso.textContent;
      
 
@@ -44,4 +40,10 @@ if(alturaEhValida&&pesoEhValido){
      var imc = peso / (altura * altura);
      tdImc.textContent = imc;
 }
+     }
+  
+    
+
+    
+     
 
