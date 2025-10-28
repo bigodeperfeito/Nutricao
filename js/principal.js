@@ -49,6 +49,13 @@ botaoAdicionar.addEventListener("cliclk", function(event){
      alert("Oi eu sou o botao e fui clicado");
 })
 
+var from = document.querySelector("#form-adiciona");
+
+
+var nome = from.nome.value;
+var peso = from.peso.value;
+var altura = from.altura.value;
+var gordura = from.gordura.value;
 
 
 
