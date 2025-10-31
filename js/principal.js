@@ -48,7 +48,7 @@ var botaoAdicionar = document.querySelector("#adicionar-paciente");
 botaoAdicionar.addEventListener("cliclk", function(event){
      event.preventDefault();
      alert("Oi eu sou o botao e fui clicado");
-})
+
 
 var from = document.querySelector("#form-adiciona");
 
@@ -78,3 +78,4 @@ pacienteTr.appendChild(gorduraTd);
 
 var tabela = document.querySelector("#tabela-pacientes");
 tabela.appendChild(pacienteTr);
+});
