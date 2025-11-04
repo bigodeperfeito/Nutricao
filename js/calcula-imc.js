@@ -47,15 +47,9 @@ paciente.classList.add("paciente-invalido");
 }
 
 if (alturaEhValido && pesoEhValido){
-var imc = peso / (altura * altura);
+var imc = calculaImc(peso, altura);
 tdImc.textContent = imc.toFixed(2);
 }
-}
-
-
-titulo.addEventListener("click", mostraMensagem);
-function mostraMensagem(){
-alert("Olá eu fui clicado.")
 }
 
 function calculaImc (peso, altura){
