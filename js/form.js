@@ -85,6 +85,7 @@ var peso = form.peso.value;
 var altura = form.altura.value;
 var gordura = form.gordura.value;
 
+
 var pacienteTr = document.createElement("tr");
 
 var nomeTd = document.createElement("td");
@@ -98,7 +99,7 @@ nomeTd.textContent = nome;
 pesoTd.textContent = peso;
 alturaTd.textContent = altura;
 gorduraTd.textContent = gordura;
-//imcTd.textContent = imc;
+imcTd.textContent = calculaImc(peso, altura);
 
 pacienteTr.appendChild(nomeTd);
 pacienteTr.appendChild(pesoTd);

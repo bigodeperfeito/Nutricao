@@ -57,3 +57,9 @@ titulo.addEventListener("click", mostraMensagem);
 function mostraMensagem(){
 alert("Olá eu fui clicado.")
 }
+
+function calculaImc (peso, altura){
+    var imc = 0;
+    var imc = peso / (altura * altura);
+    return imc;
+}
