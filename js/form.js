@@ -105,6 +105,8 @@ pacienteTr.appendChild(nomeTd);
 pacienteTr.appendChild(pesoTd);
 pacienteTr.appendChild(alturaTd);
 pacienteTr.appendChild(gorduraTd);
+pacienteTr.appendChild(ImcTd);
+
 
 var tabela = document.querySelector("#tabela-pacientes");
 tabela.appendChild(pacienteTr);
