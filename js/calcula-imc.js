@@ -2,7 +2,7 @@
 var titulo = document.querySelector("h1");
 console.log(titulo);
 console.log(titulo.textContent);
-titulo.textContent = ("White nutritions");
+titulo.textContent = ("curintia nutritions");
 
 var pacientes = document.querySelectorAll(".paciente");
 
